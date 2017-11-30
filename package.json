@@ -1,0 +1,9 @@
+{
+  "name": "zup-dribbble",
+  "version": "1.0.0",
+  "description": "Zup's challenge to create a service using Dribbble's API",
+  "main": "index.js",
+  "repository": "git@github.com:vaporwavie/zup-dribble.git",
+  "author": "Luiz Nickel <luizaugustonickel@gmail.com>",
+  "license": "MIT"
+}
