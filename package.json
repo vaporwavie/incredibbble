@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.9.0"
+  }
+}
