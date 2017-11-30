@@ -1,2 +1,2 @@
-# zup-dribble
-Zup's challenge using the Dribble public API. Made with React.
+# Zup Challenge - Dribbble API
+Zup's challenge using the Dribbble public API. Made with React.
