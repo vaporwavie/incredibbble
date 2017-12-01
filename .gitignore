@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# other stuff from the dev folder (that are not related to node)
+*.pdf
