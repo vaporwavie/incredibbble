@@ -1,14 +1,20 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 
 class Main extends Component {
     render() {
         return (
             <div>
-                <h1>Incredibbble</h1>
                 <ul className="menu">
-                    <li>Home</li>
-                    <li>Search</li>
-                    <li>About</li>
+                    <h1>Incredibbble</h1>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Search</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
                 </ul>
             </div>
         )
