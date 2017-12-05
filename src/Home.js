@@ -2,6 +2,7 @@ import React, {Component} from "react";
 
 import App from "./App";
 import About from "./About";
+import Routes from "./Routes";
 
 class Home extends React.Component {
     render() {
