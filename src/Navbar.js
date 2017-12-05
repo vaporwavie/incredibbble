@@ -1,8 +1,6 @@
-import React, {Component} from "react";
+import React from "react";
 
-import {Route, NavLink, HashRouter} from "react-router-dom";
-
-import About from "./About";
+import {NavLink} from "react-router-dom";
 
 class Navbar extends React.Component {
     render() {
