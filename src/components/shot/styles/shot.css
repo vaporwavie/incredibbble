@@ -1,0 +1,9 @@
+.shot {
+    background-color: #fff;
+    margin-bottom: .8em;
+    position: relative;
+  }
+
+  .shot img {
+    min-width: 100%;
+  }

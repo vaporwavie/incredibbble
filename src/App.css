@@ -1,0 +1,11 @@
+html,
+input[type="text"] {
+    font-family: 'Lato', sans-serif;
+}
+
+.content {
+    width: 90%;
+    background-color: red;
+    max-width: 1025px;
+    margin: auto;
+}

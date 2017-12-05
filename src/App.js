@@ -5,7 +5,9 @@ import {HashRouter} from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
 import Routes from "./components/Routes";
-// import List from "./components/List";
+import ShotsList from "./components/shots-list/ShotsList";
+
+import "./App.css";
 
 class App extends Component {
 
@@ -35,7 +37,8 @@ class App extends Component {
                 <div>
                     <Navbar/>
                     <div className="content">
-                        <Routes/> {/* <List/> */}
+                        <Routes/>
+                        <ShotsList/>
                     </div>
                 </div>
             </HashRouter>
