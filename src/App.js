@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 import {HashRouter} from "react-router-dom";
 
@@ -17,14 +18,15 @@ class App extends Component {
 
     componentDidMount() {
         const API = 'https://api.dribbble.com/v1/shots?access_token=080f41c09c3020e2c341b1a2c45a7e67c07dac1c0eca86b288c193e3c39eca15';
-        fetch(API)
-            .then(response => response.json())
-            .then(responseData => {
-                this.setState({shots: responseData});
+        axios.get(API)
+        .then(response => {
+            this.setState({
+                shots: response.data
             })
-            .catch(error => {
-                console.log('Error fetching and parsing data', error);
-            });
+        })
+        .catch(error => {
+            console.log("Error while parsing Dribbble API. Debug: ", error);
+        })
     }
     render() {
         console.log(this.state.shots);
