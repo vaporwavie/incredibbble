@@ -3,7 +3,7 @@ import React from "react";
 class List extends React.Component {
     render() {
         return (
-            <p>That's a list.</p>
+            <h1>List will be placed here (maybe)</h1>
         )
     }
 }
