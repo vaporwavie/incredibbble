@@ -5,7 +5,7 @@ html {
 .menu {
     list-style: none;
     margin: 0;
-    background-color: black;
+    background-color: #212121;
     color: white;
     display: flex;
 }
@@ -32,16 +32,16 @@ html {
     padding: 16px;
     width: 180px;
     border-style: solid;
-    border-color: grey;
+    border-color: #616161;
     transition: .5s;
 }
 
 .menu li > form > input:hover {
-    border-color: black;
+    border-color: #212121;
 }
 
 .menu li > form > input:focus {
-    border-color: black;
+    border-color: #212121;
     outline: none;
 }
 
