@@ -1,4 +1,5 @@
 import React from "react";
+
 import './styles/navbar.css';
 
 import {NavLink} from "react-router-dom";
@@ -11,7 +12,7 @@ class Navbar extends React.Component {
                     <NavLink to="/">Incredibbble</NavLink>
                 </h1>
                 <li>
-                    <NavLink to="/about">About</NavLink>
+                    <a href="#">About</a>
                 </li>
                 <li>
                     <form action="/">
