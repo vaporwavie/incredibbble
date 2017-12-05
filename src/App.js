@@ -38,7 +38,7 @@ class App extends Component {
                     <Navbar/>
                     <div className="content">
                         <Routes/>
-                        <ShotsList/>
+                        <ShotsList data={this.state.shots}/>
                     </div>
                 </div>
             </HashRouter>

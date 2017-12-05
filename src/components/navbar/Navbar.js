@@ -9,7 +9,12 @@ class Navbar extends React.Component {
         return (
             <ul className="menu">
                 <h1>
-                    <NavLink to="/">Incredibbble</NavLink>
+                    <NavLink to="/">
+                        Incredibbble
+                        <img
+                            className="dribbble-based"
+                            src="https://image.flaticon.com/icons/svg/145/145801.svg"/>
+                    </NavLink>
                 </h1>
                 <li>
                     <a href="#">About</a>
