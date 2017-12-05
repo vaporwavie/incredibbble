@@ -8,7 +8,6 @@ html {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: flex-end;
 }
 
 .menu h1 {
@@ -18,9 +17,32 @@ html {
 
 .menu a {
     text-decoration: none;
+    color: white;
+}
+
+.menu li > a {
+    text-decoration: none;
     display: block;
     padding: 1em;
     color: white;
+}
+
+.menu li > form > input {
+    display: block;
+    padding: 16px;
+    width: 180px;
+    border-style: solid;
+    border-color: grey;
+    transition: .5s;
+}
+
+.menu li > form > input:hover {
+    border-color: black;
+}
+
+.menu li > form > input:focus {
+    border-color: black;
+    outline: none;
 }
 
 .menu li:last-of-type a {
