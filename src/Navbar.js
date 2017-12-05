@@ -2,7 +2,6 @@ import React, {Component} from "react";
 
 import {Route, NavLink, HashRouter} from "react-router-dom";
 
-import Home from "./Home";
 import About from "./About";
 
 class Navbar extends React.Component {
@@ -10,7 +9,7 @@ class Navbar extends React.Component {
         return (
             <ul className="menu">
                 <h1>
-                    <NavLink to="/home">Incredibbble</NavLink>
+                    <NavLink to="/">Incredibbble</NavLink>
                 </h1>
                 <li>
                     <NavLink to="/about">About</NavLink>
