@@ -14,10 +14,7 @@ class Navbar extends React.Component {
                 </li>
                 <li>
                     <form action="#">
-                        <input
-                            onClick={console.log("Search shots")}
-                            type="text"
-                            placeholder="Search shots (press ENTER)"/>
+                        <input type="text" placeholder="Search shots (press ENTER to search)"/>
                     </form>
                 </li>
             </ul>
