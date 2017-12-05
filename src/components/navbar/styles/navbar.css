@@ -18,16 +18,19 @@
     margin-left: 10px;
     flex: 1;
 }
+
 .menu a {
     text-decoration: none;
     color: white;
 }
+
 .menu li>a {
     text-decoration: none;
     display: block;
     padding: 1em;
     color: white;
 }
+
 .menu li>form>input {
     display: block;
     padding: 16px;
@@ -37,13 +40,16 @@
     border-left-color: #212121;
     transition: .5s;
 }
+
 .menu li>form>input:hover {
     border-color: #212121;
 }
+
 .menu li>form>input:focus {
     border-color: #212121;
     outline: none;
 }
+
 .menu li:last-of-type a {
     border-bottom: none;
 }
