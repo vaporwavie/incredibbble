@@ -2,8 +2,12 @@
     background-color: #fff;
     margin-bottom: .8em;
     position: relative;
+    padding: 0;
+    overflow: hidden;
+    font-size: 0;
   }
 
   .shot img {
+    height: 235px;
     min-width: 100%;
   }

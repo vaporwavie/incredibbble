@@ -4,7 +4,7 @@ import "./styles/shot.css"
 
 const Shot = props => (
     <li className="shot">
-        <img alt=""/>
+        {/* <img alt="" /> */}
     </li>
 );
 
