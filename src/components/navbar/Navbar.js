@@ -14,7 +14,7 @@ class Navbar extends React.Component {
                     <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                    <form action="#">
+                    <form action="/">
                         <input type="text" placeholder="Search shots (press ENTER to search)"/>
                     </form>
                 </li>
