@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class Search extends Component {
+class Search extends React.Component {
     render() {
         return (
             <div>

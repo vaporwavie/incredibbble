@@ -6,9 +6,9 @@ html {
     list-style: none;
     margin: 0;
     background-color: black;
+    color: white;
     display: flex;
     justify-content: flex-end;
-    color: white;
 }
 
 .menu h1 {
