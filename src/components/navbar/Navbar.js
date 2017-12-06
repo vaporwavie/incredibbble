@@ -13,7 +13,8 @@ class Navbar extends React.Component {
                         Incredibbble
                         <img
                             className="dribbble-based"
-                            src="https://image.flaticon.com/icons/svg/145/145801.svg"/>
+                            src="https://image.flaticon.com/icons/svg/145/145801.svg"
+                            alt="Fueled by Dribbble"/>
                     </NavLink>
                 </h1>
                 <li>

@@ -23,11 +23,6 @@
   color: #FFF;
 }
 
-.shot .details p {
-  font-size: 20px;
-  margin-left: 20px;
-}
-
 .shot:hover .details {
   top: 0;
   display: block;

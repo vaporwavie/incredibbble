@@ -7,11 +7,11 @@ import "./styles/shots-list.css";
 const ShotList = props => {
 
     const results = props.data;
-    let shot = results.map(shot => <Shot url={shot.images.normal}/>);
+    let shotImage = results.map(shot => <Shot url={shot.images.normal}/>);
 
     return (
         <ul className="shots-list">
-            {shot}
+            {shotImage}
         </ul>
     );
 }
