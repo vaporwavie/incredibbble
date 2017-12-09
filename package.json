@@ -1,12 +1,22 @@
 {
   "name": "incredibbble",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vaporwavie/incredibbble.git",
+  "author": "Luiz Nickel <luizaugustonickel@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.9.0"
+  },
   "dependencies": {
+    "axios": "^0.17.1",
+    "node-sass": "^4.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.17"
+    "react-scripts": "^1.0.17",
+    "sass": "^1.0.0-beta.3"
   },
   "scripts": {
     "start": "react-scripts start",

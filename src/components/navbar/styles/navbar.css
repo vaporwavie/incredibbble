@@ -1,0 +1,55 @@
+.menu {
+    list-style: none;
+    z-index: 99999;
+    margin: 0;
+    background-color: #212121;
+    color: white;
+    display: flex;
+}
+
+.menu img.dribbble-based {
+    width: 18px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.menu h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li>a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.menu li>form>input {
+    display: block;
+    padding: 16px;
+    width: 255px;
+    border-style: solid;
+    border-color: #616161;
+    border-left-color: #212121;
+    transition: .5s;
+}
+
+.menu li>form>input:hover {
+    border-color: #212121;
+}
+
+.menu li>form>input:focus {
+    border-color: #212121;
+    outline: none;
+}
+
+.menu li:last-of-type a {
+    border-bottom: none;
+}

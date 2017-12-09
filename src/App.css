@@ -1,0 +1,12 @@
+html,
+input[type="text"] {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    color: #4c4c4c;
+    background: #f6f7f7;
+    margin: 0;
+}
+
+
